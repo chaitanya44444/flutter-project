@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Chaitanya and his ways to avoid climate change',
                 style: TextStyle(
+                  fontFamily: 'KalniaGlaze',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Ways to Avoid Climate Change are:',
                 style: TextStyle(
+
                   fontSize: 24.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
