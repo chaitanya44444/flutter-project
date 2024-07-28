@@ -14,13 +14,15 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
+                radius: 60.0,
+
                 backgroundImage: AssetImage('images/me.jpg'),
               ),
               Text(
                 'Chaitanya and his ways to avoid climate change',
                 style: TextStyle(
                   fontFamily: 'KalniaGlaze',
+                  letterSpacing: 0.5,
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -32,7 +34,6 @@ class MyApp extends StatelessWidget {
               Text(
                 'Ways to Avoid Climate Change are:',
                 style: TextStyle(
-
                   fontSize: 24.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -88,6 +89,30 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18.0,
                   color: Colors.white,
+                ),
+              ),
+              Container(
+                padding:EdgeInsets.all(10),
+                margin: EdgeInsets.symmetric(vertical: 25,horizontal: 25,),
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email_sharp,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'Contact Me at Chatanya@chaitanyav.dev',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
