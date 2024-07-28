@@ -8,8 +8,6 @@ This Flutter application is a personal project by Chaitanya, designed to raise a
 
 
 
-
-
 ##Contributing
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
