@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'KalniaGlaze',
                   letterSpacing: 0.5,
-                  fontSize: 40.0,
-                  color: Colors.white,
+                  fontSize: 42.0,
+                  color: Colors.black,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -91,28 +91,34 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              Container(
-                padding:EdgeInsets.all(10),
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 25,horizontal: 25,),
                 color: Colors.white,
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email_sharp,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'Contact Me at Chatanya@chaitanyav.dev',
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: Icon(
+                          Icons.email_sharp,
+                          color: Colors.teal,
+
+                        ),
                       ),
-                    ),
-                  ],
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text(
+                        'Contact Me at Chatanya@chaitanyav.dev',
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'Source Sans Pro',
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
